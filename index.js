@@ -14,13 +14,3 @@ function deleteFromObjectByKey(object, key) {
   delete newObj.key
   return newObj
 }
-
-function deleteFromObjectByKey(recipes, key) {
-  var newRecipes = Object.assign ({}, recipes)
-  delete newRecipes.key
-}
-
-function deleteFromObjectByKey(recipe, key) {
-  var newRecipes = Object.assign({}, recipes)
-  delete newRecipes.recipes
-}
